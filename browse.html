@@ -1,34 +1,53 @@
-<nav>
-  <a href="index.html">Home</a>
-  <a href="browse.html">Browse</a>
-  <a href="cart.html">Cart</a>
-</nav>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SimplyClean – Browse</title>
+  <title>Browse Products – SimplyClean</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to SimplyClean</h1>
+    <h1>SIMPLYCLEAN</h1>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="browse.html">Browse</a> |
+      <a href="index.html">Home</a>
       <a href="cart.html">Cart</a>
     </nav>
   </header>
 
-  <main>
-    <p>This is your homepage. Start designing here!</p>
+  <main class="browse">
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+      <button>🔍</button>
+    </div>
+
+    <div class="filter-sort">
+      <span class="filter-label">Filter</span>
+      <span class="sort-label">Sort by</span>
+    </div>
+
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 1" />
+        <p>Product name</p>
+        <p>$9.99</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 2" />
+        <p>Product name</p>
+        <p>$9.99</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 3" />
+        <p>Product name</p>
+        <p>$9.99</p>
+      </div>
+      <!-- Add more cards as needed -->
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 SimplyClean</p>
+    <p>Contact &nbsp; Terms &nbsp; Privacy</p>
   </footer>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
