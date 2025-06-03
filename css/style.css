@@ -17,3 +17,21 @@ nav a {
   text-decoration: none;
   color: #0066cc;
 }
+.hero {
+  background-color: #fefbe9;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features li::before {
+  content: "✔️";
+  margin-right: 0.5rem;
+}
