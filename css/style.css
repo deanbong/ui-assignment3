@@ -206,44 +206,47 @@ footer {
 /* --- product page --- */
 .product-detail {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
+  background-color: #fff6eb;
 }
 
 .product-image img {
-  max-width: 400px;
-  width: 100%;
-  border-radius: 1rem;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-info {
-  flex: 1;
+  max-width: 500px;
 }
 
 .product-info h2 {
-  font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .product-info .price {
-  color: #e67e22;
-  font-size: 1.2rem;
+  color: #d17c00;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .product-info button {
   background-color: orange;
-  color: white;
   border: none;
-  padding: 0.6rem 1rem;
-  border-radius: 5px;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
   cursor: pointer;
-  margin-bottom: 2rem;
 }
 
 .product-description,
 .product-reviews {
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
