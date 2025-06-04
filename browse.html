@@ -2,67 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SimplyClean | Browse</title>
-  <link rel="stylesheet" href="css/style.css?v=2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SimplyClean – Browse</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header class="site-header">
-    <a href="index.html" class="logo">Simply<span>Clean</span></a>
-    <input type="text" class="search-bar" placeholder="Search...">
-    <nav class="main-nav">
-      <a href="browse.html">Shop</a>
-      <a href="cart.html">Cart</a>
-    </nav>
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="browse-container">
-    <section class="browse-header">
-      <h1>All Products</h1>
-      <p>Browse our range of eco-friendly, natural cleaning essentials.</p>
+  <main>
+    <section class="browse-hero">
+      <div class="container">
+        <h2>All Products</h2>
+        <p>Browse our range of eco-friendly, natural cleaning essentials.</p>
+      </div>
     </section>
 
-    <section class="product-grid">
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1616627782047-08edc3a4f826" alt="All-Purpose Cleaner">
-        <p>All-Purpose Cleaner</p>
-        <span class="price">$9.99</span>
-      </div>
-
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6956" alt="Natural Dish Scrubber">
-        <p>Natural Dish Scrubber</p>
-        <span class="price">$6.49</span>
-      </div>
-
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1603394610073-6e04c4ab4d1d" alt="Eco Soap Bar">
-        <p>Eco Soap Bar</p>
-        <span class="price">$4.99</span>
-      </div>
-
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1616628220173-3c2eea24ff8d" alt="Refill Pack">
-        <p>Refill Pack</p>
-        <span class="price">$7.25</span>
-      </div>
-
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1581578731174-bd0df227ded1" alt="Glass Spray Bottle">
-        <p>Glass Spray Bottle</p>
-        <span class="price">$5.99</span>
-      </div>
-
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1581578731853-6c67f4bc48c1" alt="Laundry Powder">
-        <p>Laundry Powder</p>
-        <span class="price">$12.00</span>
+    <section class="browse-products">
+      <div class="container product-grid">
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="Cleaner">
+          <h4>All-Purpose Cleaner</h4>
+          <p>$9.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239032/pexels-photo-4239032.jpeg" alt="Scrubber">
+          <h4>Natural Dish Scrubber</h4>
+          <p>$6.49</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239033/pexels-photo-4239033.jpeg" alt="Soap Bar">
+          <h4>Eco Soap Bar</h4>
+          <p>$4.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239041/pexels-photo-4239041.jpeg" alt="Refill Pack">
+          <h4>Refill Pack</h4>
+          <p>$7.25</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239042/pexels-photo-4239042.jpeg" alt="Spray Bottle">
+          <h4>Glass Spray Bottle</h4>
+          <p>$5.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239043/pexels-photo-4239043.jpeg" alt="Laundry Powder">
+          <h4>Laundry Powder</h4>
+          <p>$12.00</p>
+        </a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2025 SimplyClean</p>
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
