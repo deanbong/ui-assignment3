@@ -2,41 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SimplyClean – Cart</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>SIMPLYCLEAN</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="browse.html">Browse</a> |
-      <a href="cart.html">Cart</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-<main class="cart-container">
-  <h2 class="cart-title">Your Shopping Cart</h2>
+  <main>
+    <section class="cart-section">
+      <div class="container">
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+          <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="Product">
+          <div class="cart-item-details">
+            <h4>All-Purpose Cleaner</h4>
+            <p>Quantity: 1</p>
+            <p>Price: $9.99</p>
+          </div>
+        </div>
 
-  <div class="cart-item">
-    <img src="https://via.placeholder.com/120" alt="Product">
-    <div class="cart-item-details">
-      <h3>Product Name</h3>
-      <p>Price: $9.99</p>
-      <label>Quantity:
-        <input type="number" value="1" min="1">
-      </label>
-      <button>Remove</button>
+        <div class="cart-summary">
+          <p><strong>Total:</strong> $9.99</p>
+          <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
     </div>
-  </div>
-
-  <p class="cart-total">Cart Total: $9.99</p>
-  <button class="checkout-button">Proceed to Checkout</button>
-</main>
-
-  <footer>
-    <p>© 2025 SimplyClean</p>
   </footer>
+
 </body>
 </html>
