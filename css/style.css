@@ -3,6 +3,17 @@
   text-decoration: none;
   color: inherit; /* Ensures the link inherits the same color as the heading */
 }
+.add-to-cart-btn {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none; /* This removes the underline */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
 
 /* Home Page */
 body {
