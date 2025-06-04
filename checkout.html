@@ -2,40 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Checkout – SimplyClean</title>
-  <link rel="stylesheet" href="css/style.css?v=3" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SimplyClean – Checkout</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>SIMPLYCLEAN</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="browse.html">Browse</a> |
-      <a href="cart.html">Cart</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="checkout-container">
-    <h2>Checkout</h2>
-    <form id="checkout-form">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" required />
+  <main>
+    <section class="checkout-section">
+      <div class="container">
+        <h2>Checkout</h2>
+        <form class="checkout-form" action="confirmation.html">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required>
 
-      <label for="address">Address:</label>
-      <input type="text" id="address" required />
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
 
-      <label for="card">Card Number:</label>
-      <input type="text" id="card" required />
+          <label for="address">Delivery Address</label>
+          <input type="text" id="address" name="address" required>
 
-      <button type="submit">Confirm Purchase</button>
-    </form>
+          <label for="card">Card Number</label>
+          <input type="text" id="card" name="card" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+
+          <button type="submit" class="confirm-btn">Confirm Purchase</button>
+        </form>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 SimplyClean</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
+    </div>
   </footer>
 
-  <script src="js/script.js"></script>
 </body>
 </html>

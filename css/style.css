@@ -299,41 +299,57 @@ body {
 }
 
 /* --- checkout page --- */
-.checkout-container {
+.checkout-section {
+  background-color: #fffefb;
+  padding: 4rem 0;
+}
+
+.checkout-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.checkout-form {
   max-width: 600px;
-  margin: 2rem auto;
-  background-color: #fff6eb;
+  margin: 0 auto;
+  background: #ffffff;
   padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.checkout-container h2 {
-  margin-bottom: 1.5rem;
-}
-
-#checkout-form {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
-#checkout-form input {
-  padding: 0.75rem;
-  font-size: 1rem;
+.checkout-form label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.checkout-form input {
+  padding: 0.8rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-#checkout-form button {
-  background-color: orange;
+.confirm-btn {
+  background-color: #228B22;
   color: white;
-  padding: 0.75rem 1rem;
   font-size: 1rem;
+  font-weight: bold;
+  padding: 0.9rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
+  margin-top: 1rem;
 }
+
+.confirm-btn:hover {
+  background-color: #1a6e1a;
+}
+
 /* --- confirmation page --- */
 .confirmation {
   padding: 3rem;
