@@ -2,43 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SimplyClean – Product</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>SIMPLYCLEAN</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="browse.html">Browse</a> |
-      <a href="cart.html">Cart</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="product-detail">
-    <div class="product-image">
-      <img src="https://via.placeholder.com/400x400" alt="Product name" />
-    </div>
-    <div class="product-info">
-      <h2>Product Name</h2>
-      <p class="price">$9.99</p>
-      <button>Add to Cart</button>
-
-      <section class="product-description">
-        <h3>Description</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Safe, natural, and toxin-free formula.</p>
-      </section>
-
-      <section class="product-reviews">
-        <h3>Reviews</h3>
-        <p>No reviews yet.</p>
-      </section>
-    </div>
+  <main>
+    <section class="product-detail-section">
+      <div class="container product-detail">
+        <div class="product-image">
+          <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="All-Purpose Cleaner">
+        </div>
+        <div class="product-info">
+          <h2>All-Purpose Cleaner</h2>
+          <p class="product-price">$9.99</p>
+          <p class="product-desc">A biodegradable and non-toxic all-purpose cleaner made with essential oils and natural ingredients. Perfect for kitchens, bathrooms, and every surface in between.</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>© 2025 SimplyClean</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
