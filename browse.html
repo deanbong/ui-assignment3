@@ -3,56 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Browse Products – SimplyClean</title>
+  <title>SimplyClean – Browse</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>SIMPLYCLEAN</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="cart.html">Cart</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="browse">
-    <div class="search-bar">
-      <input type="text" placeholder="Search" />
-      <button>🔍</button>
-    </div>
+  <main>
+    <section class="browse-hero">
+      <div class="container">
+        <h2>All Products</h2>
+        <p>Browse our range of eco-friendly, natural cleaning essentials.</p>
+      </div>
+    </section>
 
-    <div class="filter-sort">
-      <span class="filter-label">Filter</span>
-      <span class="sort-label">Sort by</span>
-    </div>
-
-    <section class="product-grid">
-      <div class="product-card">
-  <a href="product.html">
-    <img src="https://via.placeholder.com/150" alt="Product 1" />
-    <p>Product name</p>
-    <p>$9.99</p>
-  </a>
-</div>
-      <div class="product-card">
-  <a href="product.html">
-    <img src="https://via.placeholder.com/150" alt="Product 2" />
-    <p>Product name</p>
-    <p>$9.99</p>
-  </a>
-</div>
-      <div class="product-card">
-  <a href="product.html">
-    <img src="https://via.placeholder.com/150" alt="Product 3" />
-    <p>Product name</p>
-    <p>$9.99</p>
-  </a>
-</div>
+    <section class="browse-products">
+      <div class="container product-grid">
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="Cleaner">
+          <h4>All-Purpose Cleaner</h4>
+          <p>$9.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239032/pexels-photo-4239032.jpeg" alt="Scrubber">
+          <h4>Natural Dish Scrubber</h4>
+          <p>$6.49</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239033/pexels-photo-4239033.jpeg" alt="Soap Bar">
+          <h4>Eco Soap Bar</h4>
+          <p>$4.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239041/pexels-photo-4239041.jpeg" alt="Refill Pack">
+          <h4>Refill Pack</h4>
+          <p>$7.25</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239042/pexels-photo-4239042.jpeg" alt="Spray Bottle">
+          <h4>Glass Spray Bottle</h4>
+          <p>$5.99</p>
+        </a>
+        <a class="product-card" href="product.html">
+          <img src="https://images.pexels.com/photos/4239043/pexels-photo-4239043.jpeg" alt="Laundry Powder">
+          <h4>Laundry Powder</h4>
+          <p>$12.00</p>
+        </a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>Contact &nbsp; Terms &nbsp; Privacy</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
