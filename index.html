@@ -2,65 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SimplyClean – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SimplyClean</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-
-  <header class="site-header">
-    <div class="container nav-container">
-      <h1 class="logo">SimplyClean</h1>
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="browse.html">Browse</a>
-        <a href="cart.html">Cart</a>
-      </nav>
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html">Simply<span>Clean</span></a>
     </div>
+    <input type="text" class="search-bar" placeholder="Search..." />
+    <nav>
+      <a href="browse.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
   </header>
 
   <main>
-    <section class="hero-section">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <h2>For a Healthier Home & Planet</h2>
-          <p>Discover eco-friendly cleaning essentials made in Australia.</p>
-          <a href="browse.html" class="hero-btn">Shop Now</a>
-        </div>
-        <img src="https://images.pexels.com/photos/4239030/pexels-photo-4239030.jpeg" alt="Hero Image">
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1607082349250-f7b6d252fa58" alt="SimplyClean Banner" />
+      <div class="hero-text">
+        <h1>For a healthier home & planet</h1>
+        <a href="browse.html" class="btn-primary">Shop now</a>
       </div>
     </section>
 
-    <section class="highlight-section">
-      <div class="container">
-        <h3>Popular Products</h3>
-        <div class="product-grid">
-          <a class="product-card" href="product.html">
-            <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="Cleaner">
-            <h4>All-Purpose Cleaner</h4>
-            <p>$9.99</p>
-          </a>
-          <a class="product-card" href="product.html">
-            <img src="https://images.pexels.com/photos/4239032/pexels-photo-4239032.jpeg" alt="Scrubber">
-            <h4>Natural Dish Scrubber</h4>
-            <p>$6.49</p>
-          </a>
-          <a class="product-card" href="product.html">
-            <img src="https://images.pexels.com/photos/4239033/pexels-photo-4239033.jpeg" alt="Soap Bar">
-            <h4>Eco Soap Bar</h4>
-            <p>$4.99</p>
-          </a>
+    <section class="features">
+      <div>🌱 Eco-Friendly</div>
+      <div>🇦🇺 Australian Made</div>
+      <div>🚫 Toxin-Free</div>
+    </section>
+
+    <section class="product-preview">
+      <h2>Popular Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1616627989398-70c9488f305b" alt="All-Purpose Cleaner" />
+          <p class="product-name">All-Purpose Cleaner</p>
+          <p class="price">$9.99</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1624378431748-06e88f5dbccc" alt="Natural Dish Scrubber" />
+          <p class="product-name">Natural Dish Scrubber</p>
+          <p class="price">$6.49</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1589367920239-c53a68f9f10e" alt="Eco Soap Bar" />
+          <p class="product-name">Eco Soap Bar</p>
+          <p class="price">$4.99</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1605792657660-596af9009e91" alt="Refill Pack" />
+          <p class="product-name">Refill Pack</p>
+          <p class="price">$7.25</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
-    </div>
+  <footer>
+    <p>© 2025 SimplyClean</p>
   </footer>
-
 </body>
 </html>
