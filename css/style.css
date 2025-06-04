@@ -401,17 +401,24 @@ body {
 }
 
 /* ========== MOBILE STYLES ========== */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+    align-items: flex-start; /* This causes the shift to the left */
   }
 
-  .main-nav a {
-    display: block;
-    margin-bottom: 0.5rem;
+  .main-nav {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto; /* Push to right side */
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
   }
+}
+.logo {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
 
   .hero {
     padding: 4rem 1rem;
