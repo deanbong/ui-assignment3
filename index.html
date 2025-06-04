@@ -2,62 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SimplyClean – Home</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="browse.html">Browse</a>
-      <a href="cart.html">Cart</a>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">SimplyClean</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h2>For a healthier home & planet</h2>
-    <a href="browse.html" class="button">Shop now</a>
-  </section>
+  <main>
+    <section class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h2>For a Healthier Home & Planet</h2>
+          <p>Discover eco-friendly cleaning essentials made in Australia.</p>
+          <a href="browse.html" class="hero-btn">Shop Now</a>
+        </div>
+        <img src="https://images.pexels.com/photos/4239030/pexels-photo-4239030.jpeg" alt="Hero Image">
+      </div>
+    </section>
 
-  <section class="features">
-    <ul>
-      <li><span class="icon">♻️</span>Eco-Friendly</li>
-      <li><span class="icon">🇦🇺</span>Australian Made</li>
-      <li><span class="icon">🧪</span>Toxin-Free</li>
-    </ul>
-  </section>
+    <section class="highlight-section">
+      <div class="container">
+        <h3>Popular Products</h3>
+        <div class="product-grid">
+          <a class="product-card" href="product.html">
+            <img src="https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg" alt="Cleaner">
+            <h4>All-Purpose Cleaner</h4>
+            <p>$9.99</p>
+          </a>
+          <a class="product-card" href="product.html">
+            <img src="https://images.pexels.com/photos/4239032/pexels-photo-4239032.jpeg" alt="Scrubber">
+            <h4>Natural Dish Scrubber</h4>
+            <p>$6.49</p>
+          </a>
+          <a class="product-card" href="product.html">
+            <img src="https://images.pexels.com/photos/4239033/pexels-photo-4239033.jpeg" alt="Soap Bar">
+            <h4>Eco Soap Bar</h4>
+            <p>$4.99</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <section class="products">
-    <h3>Popular Products</h3>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Product name" />
-        <p>Product name</p>
-        <p>$9.99</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Product name" />
-        <p>Product name</p>
-        <p>$9.99</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Product name" />
-        <p>Product name</p>
-        <p>$9.99</p>
-        <button>Add to Cart</button>
-      </div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 SimplyClean. All rights reserved.</p>
     </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 SimplyClean</p>
   </footer>
 
-  <script src="js/script.js"></script>
 </body>
 </html>
- 
