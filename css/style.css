@@ -200,6 +200,21 @@ body {
   font-weight: 600;
   color: #228B22;
 }
+.search-bar {
+  padding: 1rem 0;
+  background-color: #fefcf9;
+  text-align: center;
+}
+
+#searchInput {
+  padding: 0.7rem 1.2rem;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
 
 /* --- product page --- */
 .product-detail-section {
